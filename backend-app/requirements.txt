@@ -1,0 +1,4 @@
+Flask_MySQLdb==0.2.0
+validators==0.18.2
+Flask_Cors==3.0.10
+Flask==2.0.2

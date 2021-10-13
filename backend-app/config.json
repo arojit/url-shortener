@@ -1,0 +1,8 @@
+{
+  "database": {
+    "MYSQL_HOST": "db",
+    "MYSQL_USER": "root",
+    "MYSQL_PASSWORD": "P@55W03D",
+    "MYSQL_DB": "tiny_url"
+  }
+}
