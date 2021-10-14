@@ -1,4 +1,4 @@
-# url-shortener
+# URL-Shortener
 URL shortening is a web service, which provides short aliases for redirection of long URLs.
 
 # Prerequisites
