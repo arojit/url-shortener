@@ -19,6 +19,6 @@ services:
   client-app:
     build: ./client-app
     links:
-      - app
+      - backend-app
     ports:
       - "3000:3000"
