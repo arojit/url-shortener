@@ -1,5 +1,11 @@
 # URL-Shortener
-URL shortening is a web service, which provides short aliases for redirection of long URLs.
+URL shortening is a micro-service based web service, which provides short aliases for redirection of long URLs.
+
+# Technologies Used
+- **Python(Flask)** for backend application<br/>
+- **ReactJS** for client application<br/>
+- **MySQL** as a database<br/>
+- **Docker** as a containerized platform
 
 # Prerequisites
 Install the following two, skip if you already have <br/>
