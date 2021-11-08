@@ -8,6 +8,7 @@ import isURL from 'validator/lib/isURL';
 
 import ShortURLs from '../Display/short-urls';
 import {Item, url_prefix} from '../common';
+import design from '../style';
 
 function UrlBox() {
     let urlRef = React.createRef();
@@ -80,7 +81,7 @@ function UrlBox() {
             <Grid item xs={12}>
                 <Item>
                     <TextField id="standard-basic" label="URL" variant="standard" style={{width: '60ch'}} inputRef={urlRef} data-testid="url-input"></TextField>
-                    <Button variant="contained" onClick={handleSubmit} data-testid="make-short-url-button">Make Short URL</Button>
+                    <Button variant="contained" onClick={handleSubmit} data-testid="make-short-url-button" style={design.button2}>Make Short</Button>
                 </Item>
                 <Item>
                 { showTinyURL ? <Alert severity="success" style={{width: '60ch'}}>
